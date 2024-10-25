@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Summit 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="upperPart">
+           
+           
+            <ul class="nav-menu1">
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><a href="#English">English</a></li>
+                <li><a href="#MyPage">Mypage</a></li>
+                <li><a href="#Logout">Logout</a></li>
+            </ul>
+           
+        </nav>
+       <div class="bottom">
+        <img src="icons/download.png" alt="">
+            
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#partners">Partners</a></li>
+            </ul>
+           
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-close">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul class="mobile-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#partners">Partners</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>"Hello! Coding World"</h1>
+            <h2>WEB DEVELOPMENT<br>GLOBAL SUMMIT<br>2024</h2>
+            <div class="p_content">
+                <p>A celebration of web development excellence, bringing together developers from over 80 countries to share knowledge and shape the future of the web.</p>
+            </div>
+            
+            <div class="date-location">
+                2024.06.15(SAT) ~ 16(SUN)<br>
+                @ Silicon Valley Convention Center and more
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Program -->
+    <section class="main-program" id="program">
+        <div class="program-container">
+            <h2 class="program-title">Main Program</h2>
+            <div class="program-grid">
+                <div class="program-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Workshops</h3>
+                    <p>Hands-on coding sessions with industry experts</p>
+                </div>
+                <div class="program-item">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Lectures</h3>
+                    <p>Learn about the latest web technologies</p>
+                </div>
+                <div class="program-item">
+                    <i class="fas fa-comments"></i>
+                    <h3>Forum</h3>
+                    <p>Share ideas with fellow developers</p>
+                </div>
+                <div class="program-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Exhibition</h3>
+                    <p>Showcase your projects to the community</p>
+                </div>
+                <div class="program-item">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Networking</h3>
+                    <p>Connect with developers worldwide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section class="speakers" id="speakers">
+        <div class="speakers-container">
+            <h2 class="speakers-title">Featured Speakers</h2>
+            <div class="speakers-grid" id="speakersGrid">
+                <!-- Dynamically populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners" id="partners">
+        <h2>Partners</h2>
+        <div class="partners-grid">
+            <img src="/api/placeholder/120/40" alt="Google" class="partner-logo">
+            <img src="/api/placeholder/120/40" alt="Microsoft" class="partner-logo">
+            <img src="/api/placeholder/120/40" alt="Amazon" class="partner-logo">
+            <img src="/api/placeholder/120/40" alt="Meta" class="partner-logo">
+            <img src="/api/placeholder/120/40" alt="GitHub" class="partner-logo">
+        </div>
+    </section>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
