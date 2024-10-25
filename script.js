@@ -2,40 +2,40 @@
         // Speakers Data
         const speakers = [
             {
-                name: "Sarah Johnson",
-                title: "Senior Engineer at Google, Chrome Dev Tools Team",
-                bio: "Leading developer tools innovation and web performance optimization",
-                image: "/api/placeholder/120/120"
+                name: "Imran Khan",
+                title: "All Rounder (ExCaptain)",
+                bio: "A charismatic individual, Imran Khan Niazi, was one of the best all-rounders of his generation along with Ian Botham of England, Richard Hadlee of New Zealand and Kapil Dev of India.",
+                image: "icons/Imran-Khan.webp"
             },
             {
-                name: "Michael Chen",
-                title: "Creator of PopularJS Framework",
-                bio: "Pioneer in modern JavaScript frameworks and web architecture",
-                image: "/api/placeholder/120/120"
+                name: "Javed Mianda",
+                title: "Batter",
+                bio: "Javed Miandad was an exceptional batsman and an epitome of doggedness, scoring over 16,000 international runs with 31 centuries and 93 half-centuries.",
+                image: "/icons/Javed Mianda.webp"
             },
             {
-                name: "Emily Rodriguez",
-                title: "Web Accessibility Expert",
-                bio: "Advocate for inclusive web development and universal design",
-                image: "/api/placeholder/120/120"
+                name: "Waqar Younis",
+                title: "Bowler",
+                bio: "Waqar Younis, who emerged from Vehari, a remote corner of Multan in the Punjab province, had a dream start to an illustrious career, which made him one of the finest exponents of pace bowling.",
+                image: "/icons/Waqar-Younis.webp"
             },
             {
-                name: "David Kim",
-                title: "Security Engineer at Mozilla",
-                bio: "Specializing in web security and browser technologies",
-                image: "/api/placeholder/120/120"
+                name: "Wasim Akram",
+                title: "Muscian Bowler",
+                bio: "Wasim Akram is undoubtedly the best left-arm fast bowler the game has seen to date. His 414 Test and 502 ODI wickets are proof of him being the most fearsome fast bowler of his generation",
+                image: "/icons/Wasim-Akram.webp"
             },
             {
-                name: "Lisa Wang",
-                title: "UX Engineering Lead at Apple",
-                bio: "Bridging the gap between design and development",
-                image: "/api/placeholder/120/120"
+                name: "Fazal Mahmood",
+                title: "Handsome Batter",
+                bio: "Fazal Mahmood’s legacy is etched forever in Pakistan cricket. He was the first great fast bowler from the country that would go on to establish itself as one of the richest region for fast bowling.",
+                image: "/icons/Fazal-Mahmood.webp"
             },
             {
-                name: "James Wilson",
-                title: "Web Performance Consultant",
-                bio: "Expert in optimization and scalable architecture",
-                image: "/api/placeholder/120/120"
+                name: "Younis Khan",
+                title: "Bowler",
+                bio: "Some players leave an indelible mark in the world of sports either through the numbers they produce or by sheer grit and fortitude they bring to the field. ",
+                image: "icons/Younis-Khan.webp"
             }
         ];
 
@@ -55,23 +55,4 @@
             speakersGrid.appendChild(speakerCard);
         });
 
-        // Mobile Menu
-        const hamburger = document.querySelector('.hamburger');
-        const mobileMenu = document.querySelector('.mobile-menu');
-        const closeMenu = document.querySelector('.mobile-menu-close');
-        const mobileNavLinks = document.querySelectorAll('.mobile-nav a');
-
-        hamburger.addEventListener('click', () => {
-            mobileMenu.classList.add('active');
-        });
-
-        closeMenu.addEventListener('click', () => {
-            mobileMenu.classList.remove('active');
-        });
-
-        mobileNavLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.remove('active');
-            });
-        });
-   
+       
